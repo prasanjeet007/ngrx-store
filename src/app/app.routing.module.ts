@@ -1,3 +1,4 @@
+import { PostEditComponent } from './posts/post-edit/post-edit.component';
 import { CounterComponent } from './counter/counter/counter.component';
 import { NgModule } from "@angular/core";
 import { Routes, RouterModule } from "@angular/router";
@@ -12,7 +13,8 @@ const routes: Routes = [
     {path:'posts', component: PostListComponent,
 
 children:[
-    {path:'add',component: AddPostComponent}
+    {path:'add',component: AddPostComponent},
+    {path:'edit/:id', component:PostEditComponent}
 ]}
 ]
 @NgModule({

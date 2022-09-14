@@ -14,7 +14,8 @@ import { AppRoutingModule } from './app.routing.module';
 import { HeaderComponent } from './shared/header/header.component';
 import { PostListComponent } from './posts/post-list/post-list.component';
 import { environment } from '../environments/environment';
-import { AddPostComponent } from './posts/add-post/add-post.component'; // 
+import { AddPostComponent } from './posts/add-post/add-post.component';
+import { PostEditComponent } from './posts/post-edit/post-edit.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { AddPostComponent } from './posts/add-post/add-post.component'; //
     HomeComponent,
     HeaderComponent,
     PostListComponent,
-    AddPostComponent
+    AddPostComponent,
+    PostEditComponent,
   ],
   imports: [
     BrowserModule,
