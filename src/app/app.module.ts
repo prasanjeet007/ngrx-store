@@ -3,32 +3,19 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { AppComponent } from './app.component';
-import { CounterComponent } from './counter/counter/counter.component';
-import { CounterOutputComponent } from './counter/counter-output/counter-output.component';
-import { CounterButtonsComponent } from './counter/counter-buttons/counter-buttons.component';
 import { StoreModule } from '@ngrx/store';
-import { CounterInputComponent } from './counter/counter-input/counter-input.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HomeComponent } from './home/home.component';
 import { AppRoutingModule } from './app.routing.module';
 import { HeaderComponent } from './shared/header/header.component';
-import { PostListComponent } from './posts/post-list/post-list.component';
 import { environment } from '../environments/environment';
-import { AddPostComponent } from './posts/add-post/add-post.component';
-import { PostEditComponent } from './posts/post-edit/post-edit.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    CounterComponent,
-    CounterOutputComponent,
-    CounterButtonsComponent,
-    CounterInputComponent,
     HomeComponent,
     HeaderComponent,
-    PostListComponent,
-    AddPostComponent,
-    PostEditComponent,
   ],
   imports: [
     BrowserModule,
